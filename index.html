@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Bootstrap CSS, JS, Font Awesome here-->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+ <link rel="stylesheet" href="css/style.css">
+ <script src="./javacript/javascript.js"></script>
+    <title>Trang Chủ QT-DESIGN</title>
+</head>
+<body>
+    <!-- Navbar-Trung làm-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-branch" href="#">
+                <img src="./image/logo/logo 2 png.png" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                           <span class="title-navbar titlehome">TRANG CHỦ</span>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
+                             <span class="title-navbar">DỊCH VỤ</span>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item">Thiết kế logo</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item">Nhận diện thương hiệu</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item">Thiết kế web</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item">In ấn</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
+                            <span class="title-navbar">DỰ ÁN</span>
+                       </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item">Thiết kế logo</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item">Nhận diện thương hiệu</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item">Thiết kế web</a>
+                          
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
+                            <span class="title-navbar">BLOG</span>
+                       </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item">Tin tức</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item">Cẩm nang thiết kế</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item">Idea</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item">Khác</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#">
+                          <span class="title-navbar">GIỚI THIỆU</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <span class="title-navbar">LIÊN HỆ</span>
+                        </a>
+                    </li>
+                    <button class="btn btn-outline-light button-postting" type="submit">
+                        0768 523 150</i>
+                    </button>
+            
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!--End Navbar-Trung làm-->
+
+<!--Slideshow-Trung làm-->
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="image/imageslide/imageslide1.jpg" style="width:100%">
+  <div class="textslide">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="image/imageslide/imageslide2.jpg" style="width:100%">
+  <div class="textslide">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="image/imageslide/imageslide3.jpg" style="width:100%">
+  <div class="textslide">Caption Three</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+<!--End slideshow-Trung làm -->
+
+<!-- Text Welcome-Trung làm-->
+<div class="textwelcome">
+    <h3>Chào mừng bạn đến với QT-Design!</h3>
+    <p>"QT- Design" với đội ngũ nhân viên thiết kế trẻ trung, năng động và luôn cập nhập các xu hướng thiết kế . Chúng tôi tự tin và cam kết mang lại dịch vụ tốt nhất, chuyên nghiệp cho khách hàng.
+        Dưới đây là những dịch vụ chính của QT- Design
+        </p>
+    </div>
+    <!-- End welcome-Trung làm-->
+
+
+
+
+
+
+
+
+
+<script>
+    var slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+</html>
